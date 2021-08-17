@@ -1,0 +1,4 @@
+SELECT {[Measures].[Match Points]} ON COLUMNS,
+{[Date Dimension].[Date].&[2012-04-08T00:00:00],
+[Date Dimension].[Date].&[2011-02-19T00:00:00]} ON ROWS
+FROM [Match DW]
